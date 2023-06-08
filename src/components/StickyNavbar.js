@@ -49,7 +49,6 @@ const StickyNavbar = () => {
     <a href='#bio'>Biography</a>
     <a href='#photos'>Photography</a>
     <a href='#credits'>Credits</a>
-    <a href='#jokes'>Jokes</a>
    </span>
   </nav>
  );

@@ -3,7 +3,11 @@ import jkhero from "../images/jkhero.png";
 const Hero = () => {
  return (
   <div className='all-center'>
-   <img src={jkhero} alt='Jeff Klinger Comedy' />
+   <img
+    style={{ height: "80vh", width: "80vh" }}
+    src={jkhero}
+    alt='Jeff Klinger Comedy'
+   />
   </div>
  );
 };

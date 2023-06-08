@@ -4,6 +4,9 @@ import pic2 from "../images/pic2.jpg";
 import pic3 from "../images/pic3.jpg";
 import pic4 from "../images/pic4.jpg";
 import pic5 from "../images/pic5.jpg";
+import manup from "../images/manup.png";
+import mashup from "../images/mashup.png";
+import lastcomic from "../images/lastcomic.png";
 
 const Main = () => {
  return (
@@ -41,8 +44,14 @@ const Main = () => {
      would launch the career of stars like TJ Miller. It was a place that was
      known of its anything goes, but it better be funny atmosphere that was just
      getting started when all the other comedy clubs were closing for the night.
-     Read more about it here:
-     https://chicagoreader.com/arts-culture/when-lyons-roared/{" "}
+     <a
+      target='_blank'
+      rel='noreferrer'
+      href=' https://chicagoreader.com/arts-culture/when-lyons-roared/'
+      alt='When Lyons Roared'>
+      {" "}
+      Read more{" "}
+     </a>{" "}
     </p>
     <p style={{ textIndent: "20px" }}>
      Jeff taught a stand up comedy class to children at the Village Players
@@ -67,7 +76,7 @@ const Main = () => {
    <br />
    <br />
    <br />
-   <h5>Some Pictures</h5>
+   <h5>Fun Pictures</h5>
    <div id='photos' className='grid-5'>
     <div>
      {" "}
@@ -90,15 +99,61 @@ const Main = () => {
    <br />
    <br />
    <br />
-   <h5>Some Credits</h5>
-   <div>
-    <p>American Murder Mystery - Narrator</p>
-    <p>Mashup</p>
-    <p>Man Up Stand Up</p>
-    <p>Last Comic Standing</p>
-    <p>
-     See more <a href='https://www.imdb.com/name/nm3889169/'>here</a>
-    </p>
+   <h5>
+    Jeff has starred in a number of comedy pilots and series. See more{" "}
+    <a
+     target='_blank'
+     rel='noreferrer'
+     href='https://www.imdb.com/name/nm3889169/'>
+     here
+    </a>
+   </h5>
+   <div className='grid-3 all-center' id='credits'>
+    <div>
+     <p>
+      <a
+       target='_blank'
+       rel='noreferrer'
+       href='https://www.vudu.com/content/movies/details/Mash-Up-Season-1/391776'>
+       Mashup
+      </a>
+     </p>
+     <img
+      style={{ height: "100px", width: "100px" }}
+      src={mashup}
+      alt='Mash Up'
+     />
+    </div>
+    <div>
+     <p>
+      <a
+       target='_blank'
+       rel='noreferrer'
+       href='https://www.amazon.com/Man-Up-Stand/dp/B088Q1SDQ1'>
+       Man Up Stand Up
+      </a>
+     </p>
+     <img
+      style={{ height: "100px", width: "100px" }}
+      src={manup}
+      alt='Man Up Stand Up'
+     />
+    </div>
+    <div>
+     <p>
+      <a
+       target='_blank'
+       rel='noreferrer'
+       href='https://www.imdb.com/title/tt0364829/'>
+       Last Comic Standing
+      </a>
+     </p>
+     <img
+      style={{ height: "100px", width: "100px" }}
+      src={lastcomic}
+      alt='Last Comic Standiung'
+     />
+    </div>
    </div>
   </>
  );
